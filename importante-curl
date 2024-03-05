@@ -1,1 +1,7 @@
-C
+curl --request POST \
+  --url https://dev-srt4y8e4a7kzusdu.us.auth0.com/oauth/token \
+  --header 'content-type: application/json' \
+  --data '{"client_id":"rAi5lS06gZE8RtkVF7nRRubuI4F1ECT7",
+  "client_secret":"VVsE2ul6q3KOyIpg9Z6Kc4WedXlqQcDvvWI9ipGG57xSpJbWaRmpbhW5S3Eq46uK",
+  "audience":"http://localhost:3000/api/productos",
+  "grant_type":"client_credentials"}'
